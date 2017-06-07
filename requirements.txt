@@ -1,0 +1,4 @@
+Twisted==15.0.0
+bottle==0.12.9
+gunicorn==19.4.5
+flask==0.12
