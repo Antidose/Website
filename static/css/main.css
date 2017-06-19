@@ -9,7 +9,7 @@ body {
   overflow-x: hidden;
 }
 p {
-  font-size: 14px;
+  font-size: 15px;
   line-height: 26px;
 }
 a:hover,
@@ -27,7 +27,7 @@ a {
   padding: 10px 30px;
   border-radius: 0px;
   font-weight: 400;
-  color: #fff;
+  color: black;
   text-transform: uppercase;
   -webkit-transition: all 0.2s linear;
   -moz-transition: all 0.2s linear;
@@ -41,16 +41,16 @@ a {
   outline: none;
 }
 .btn-common {
-  border: 2px solid #4676fa;
-  background-color: #4676fa;
+  border: 2px solid #FFF843;
+  background-color: #FFF843;
   position: relative;
   z-index: 1;
   border-radius: 4px;
 }
 .btn-common:hover {
-  color: #4676fa;
+  color: #fff;
   background-color: transparent;
-  border: 2px solid #4676fa;
+  border: 2px solid #FFF843;
   transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
   -webkit-transition: all 0.5s ease-in-out;
@@ -119,24 +119,25 @@ a:not([href]):not([tabindex]):hover {
   font-size: 42px;
   margin-top: 0;
   text-transform: uppercase;
-  font-weight: 100;
-  color: #0d3559;
+  font-weight: bold;
+  color: black;
   position: relative;
 }
 .section-header .section-title span {
-  color: #4676fa;
+  color: #FF434C;
+  font-weight: bold;
 }
 .section-header .section-subtitle {
   margin-top: 15px;
   color: #333;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 400;
 }
 .section-header .lines {
   margin: auto;
   width: 70px;
   position: relative;
-  border-top: 2px solid #346afe;
+  border-top: 2px solid #fff;
   margin-top: 15px;
 }
 .section-header .lines:before {
@@ -148,7 +149,7 @@ a:not([href]):not([tabindex]):hover {
   top: -10px;
   border: 4px solid #fff;
   border-radius: 50%;
-  background: #4676fa;
+  background: #FFF843;
   left: 27px;
 }
 /* ==========================================================================
@@ -172,10 +173,10 @@ a:not([href]):not([tabindex]):hover {
 }
 .menu-bg .menu-button:hover {
   cursor: pointer;
-  color: #4676fa;
+  color: #FF434C;
 }
 .menu-bg .logo-menu a {
-  color: #4676fa;
+  color: #FF434C;
 }
 .menu-button:hover {
   cursor: pointer;
@@ -238,7 +239,7 @@ a:not([href]):not([tabindex]):hover {
   height: 100%;
   top: 0px;
   left: 0px;
-  background: #4676fa;
+  background: #FF434C;
   opacity: 0.7;
   filter: alpha(opacity=70);
 }
@@ -344,9 +345,7 @@ a:not([href]):not([tabindex]):hover {
 #video-area .banner_bottom_btn i:hover {
   color: #4676fa;
 }
-.overlay-2 {
-  background: rgba(0, 0, 0, 0.7) !important;
-}
+
 /* ==========================================================================
    About Section Style
    ========================================================================== */
@@ -357,17 +356,19 @@ a:not([href]):not([tabindex]):hover {
 .item-boxes {
   text-align: center;
   padding: 15px;
+  background-color:white;
   border-radius: 4px;
   margin-bottom: 15px;
   webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
+
 }
 .item-boxes .icon {
   width: 60px;
   height: 60px;
   text-align: center;
-  border: 1px solid #4676fa;
+  border: 1px solid #FF434C;
   display: inline-block;
   border-radius: 5px;
   margin-top: 10px;
@@ -379,7 +380,7 @@ a:not([href]):not([tabindex]):hover {
 .item-boxes .icon i {
   font-size: 30px;
   line-height: 60px;
-  color: #4676fa;
+  color: #FF434C;
 }
 .item-boxes h4 {
   font-size: 20px;
@@ -387,16 +388,44 @@ a:not([href]):not([tabindex]):hover {
   margin-bottom: 10px;
 }
 .item-boxes:hover {
-  background: #fff;
+  background: #FFFB8C;
+  opacity:0.7;
   box-shadow: 0 8px 48px 0 rgba(0, 0, 0, 0.15);
 }
 #services {
   position: relative;
-  background: #f2f2f2;
+  background: #FF434C;
 }
 /* ==========================================================================
    Features Section Style
    ========================================================================== */
+
+#special{
+    color:#fff;
+}
+.nalox{
+    font-size: 100pt;
+    color: #FF434C;
+    line-height:190px;
+    padding-left: 7px;
+    padding-bottom: 7px;
+    border: 0px solid white;
+    border-radius: 200px;
+    background-color: white;
+}
+
+.nalox-box{
+    width: 350px!important;
+    height: 200px!important;
+    border: 5px solid gray;
+    background-color: gray;
+    
+    -webkit-box-shadow: inset 0px 0px 0px 5px rgba(255,255,255,1);
+    -moz-box-shadow: inset 0px 0px 0px 5px rgba(255,255,255,1);
+    box-shadow: inset 0px 0px 0px 5px rgba(255,255,255,1);
+}
+
+
 #features {
   background: #fff;
 }
@@ -429,7 +458,7 @@ a:not([href]):not([tabindex]):hover {
   padding-bottom: 30px;
 }
 #features .box-item .icon {
-  border: 1px solid #4676fa;
+  border: 1px solid #FFFB8C;
   text-align: center;
   margin: 12px;
   -webkit-transition: all 0.2s linear;
@@ -438,7 +467,7 @@ a:not([href]):not([tabindex]):hover {
   transition: all 0.2s linear;
 }
 #features .box-item .icon i {
-  color: #4676fa;
+  color: #FFFB8C;
   font-size: 24px;
   line-height: 60px;
   -webkit-transition: all 0.2s linear;
@@ -456,7 +485,7 @@ a:not([href]):not([tabindex]):hover {
   line-height: 26px;
 }
 #features .box-item:hover .icon {
-  background: #4676fa;
+  background: #FFFB8C;
 }
 #features .box-item:hover .icon i {
   color: #ffffff;
@@ -492,7 +521,7 @@ a:not([href]):not([tabindex]):hover {
   content: "";
   height: 30%;
   width: 30%;
-  background: #346afe;
+  background: #FF434C;
   opacity: 0;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
@@ -563,8 +592,8 @@ a:not([href]):not([tabindex]):hover {
   padding: 0px 0px 20px;
 }
 .controls .mixitup-control-active {
-  color: #4676fa !important;
-  border-color: #4676fa;
+  color: #FFFB8C !important;
+  border-color: #FFFB8C;
   background: transparent;
 }
 .controls .btn {
@@ -706,8 +735,8 @@ a:not([href]):not([tabindex]):hover {
   transition: all 0.5s ease-in-out;
 }
 .video-promo .video-promo-content .video-popup:hover {
-  background: #4676fa;
-  border-color: #4676fa;
+  background: #FFFB8C;
+  border-color: #FFFB8C;
   color: #fff;
 }
 .overlay {
@@ -716,9 +745,7 @@ a:not([href]):not([tabindex]):hover {
   height: 100%;
   top: 0px;
   left: 0px;
-  background: #4676fa;
-  opacity: 0.7;
-  filter: alpha(opacity=70);
+  background: #FF434C;
 }
 /* ==========================================================================
     Pricing Table
@@ -740,8 +767,8 @@ a:not([href]):not([tabindex]):hover {
 }
 .pricing-table .icon {
   font-size: 26px;
-  color: #4676fa;
-  border: 1px solid #4676fa;
+  color: #FFFB8C;
+  border: 1px solid #FFFB8C;
   border-radius: 4px;
   width: 64px;
   height: 64px;
@@ -759,7 +786,7 @@ a:not([href]):not([tabindex]):hover {
   display: inline-block;
   font-size: 28px;
   font-weight: 400;
-  color: #4676fa;
+  color: #FFFB8C;
   margin-bottom: 20px;
 }
 .pricing-table .pricing-details ul {
@@ -1152,7 +1179,7 @@ footer {
   font-size: 14px;
   text-align: center;
   border-radius: 4px;
-  background-color: #4676fa;
+  background-color: #FFFB8C;
   -webkit-transition: all 0.2s linear;
   -moz-transition: all 0.2s linear;
   -o-transition: all 0.2s linear;
@@ -1211,3 +1238,39 @@ footer {
     -webkit-transform: scale(1);
   }
 }
+
+
+
+.breathing{
+    -webkit-transition-duration: 5000ms;
+    -moz-transition-duration: 5000ms;
+    -o-transition-duration: 50000ms;
+    transition-duration: 5000ms;
+-webkit-animation: breathing 5000ms infinite; /* Safari 4+ */
+  -moz-animation:    breathing 5000s infinite; /* Fx 5+ */
+  -o-animation:      breathing 5000s infinite; /* Opera 12+ */
+  animation:         breathing 5000ms infinite; /* IE 10+, Fx 29+ */
+}
+
+
+@-webkit-keyframes breathing {
+  0%   { opacity: 0; }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
+}
+@-moz-keyframes breathing {
+  0%   { opacity: 0; }
+    50% { opacity: 1; }
+  100% { opacity: 0; }
+}
+@-o-keyframes breathing {
+  0%   { opacity: 0; 
+      50% { opacity: 1; }
+  100% { opacity: 0; }
+}
+@keyframes breathing {
+  0%   { opacity: 0; }
+    50% { opacity: 1; }
+  100% { opacity: 0; }
+}
+    
