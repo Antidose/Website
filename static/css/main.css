@@ -478,7 +478,7 @@ a:not([href]):not([tabindex]):hover {
   padding-bottom: 15px;
 }
 #features .box-item .icon {
-  border: 1px solid #FFFB8C;
+  border: 3px solid #FFFB8C;
   text-align: center;
   margin: 12px;
   -webkit-transition: all 0.2s linear;
