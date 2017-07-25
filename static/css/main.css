@@ -239,6 +239,13 @@ a:not([href]):not([tabindex]):hover {
 .navbar-light .navbar-toggler i {
   color: #333!important;
 }
+
+@media screen and (max-width: 1000px) {
+.large-picture{
+    display: none;
+}
+}
+    
 /* ==========================================================================
    Hero Area Style
    ========================================================================== */
@@ -411,7 +418,7 @@ a:not([href]):not([tabindex]):hover {
   box-shadow: 0 8px 48px 0 rgba(0, 0, 0, 0.15);
 }
 #services {
-    height:100%;
+   
   position: relative;
   background: #FF434C;
 }
