@@ -347,7 +347,7 @@ a:not([href]):not([tabindex]):hover {
 }
 #video-area .contents p {
   font-size: 14px;
-  color: #fff;
+  color: #000;
   font-weight: 400;
   line-height: 30px;
   letter-spacing: 0.5px;
@@ -421,6 +421,10 @@ a:not([href]):not([tabindex]):hover {
    
   position: relative;
   background: #FF434C;
+}
+
+h2.subtitle{
+    color:white;
 }
 /* ==========================================================================
    Features Section Style
