@@ -244,6 +244,10 @@ a:not([href]):not([tabindex]):hover {
 .large-picture{
     display: none;
 }
+    .logomojo
+    {
+        max-width:400px;
+    }
 }
     
 /* ==========================================================================
