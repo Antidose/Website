@@ -246,7 +246,7 @@ a:not([href]):not([tabindex]):hover {
 }
     .logomojo
     {
-        max-width:400px;
+        max-width:350px;
     }
 }
     
